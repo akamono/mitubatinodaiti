@@ -55,6 +55,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(250, 242, 124);
+  color: rgb(5, 160, 13);
 }
 
 .navbar {
@@ -71,7 +72,7 @@ body {
     list-style: none;
     background-color: rgb(250, 242, 124);
     font-size: 1.3em;
-  }
+    }
    
   .minbar {
     display: none;
