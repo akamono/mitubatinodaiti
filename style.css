@@ -3,20 +3,20 @@ body {
 }
 
 .slideBox {
-  height: 380px;
+  height: 180px;
   overflow: hidden;
   position: relative;
+  
 }
 
 .item1 {
+  display: block;
   opacity: 0;
   max-width: 100%;
-  width: auto;
-  /* height: 50vw; */
-  /* object-fit: cover; */
+  height: auto;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  left:50%;
+  transform: translateX(-50%);
   animation: anime 40s 0s infinite;
  }
 
@@ -61,7 +61,7 @@ body {
   display: none;
 }
 
-@media (min-width:600px){
+@media (min-width:750px){
   .navbar {
     display: flex;
     justify-content: center;
@@ -76,7 +76,14 @@ body {
   .minbar {
     display: none;
   }
-}
+
+ .slideBox {
+  height: 440px;
+  overflow: hidden;
+  position: relative;
+ }
+  
+  }
 
 .navbar li a:hover {
   background-color: rgb(245, 241, 181) ;
